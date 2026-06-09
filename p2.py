@@ -1,12 +1,15 @@
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
 daily_tasks = []
 
 #Infinite Loop for menu
 while True:
     print("===My Daily Lists===")
-    print("1. View Tasks")
-    print("2. Add a Task")
-    print("3. Remove a Task")
-    print("4. Quit")
+    print("1.  View Tasks")
+    print("2.  Add a Task")
+    print("3.  Remove a Task")
+    print("4. 󱠡 Quit")
 
     # For user choice
     user_choice = input("Choose an option: ")
